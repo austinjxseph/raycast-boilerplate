@@ -5,15 +5,24 @@
   "description": "Utilities to work with Tailwind CSS",
   "icon": "tailwind-icon.png",
   "author": "vimtor",
-  "contributors": ["cy-98", "emilsharier", "pernielsentikaer", "erich2s", "ridemountainpig", "jor",
-    "garrill"],
+  "contributors": [
+    "cy-98",
+    "emilsharier",
+    "pernielsentikaer",
+    "erich2s",
+    "ridemountainpig",
+    "jor",
+    "garrill"
+  ],
   "license": "MIT",
   "commands": [
     {
       "name": "search-documentation",
       "title": "Search Documentation",
       "subtitle": "Tailwind CSS",
-      "keywords": ["css"],
+      "keywords": [
+        "css"
+      ],
       "description": "Search documentation and open it in the browser",
       "mode": "view"
     },
@@ -21,7 +30,9 @@
       "name": "search-classes",
       "title": "Search Classes",
       "subtitle": "Tailwind CSS",
-      "keywords": ["css"],
+      "keywords": [
+        "css"
+      ],
       "description": "Search Tailwind CSS utility classes",
       "mode": "view",
       "preferences": [
@@ -71,7 +82,9 @@
       "name": "search-colors",
       "title": "Search Colors",
       "subtitle": "Tailwind CSS",
-      "keywords": ["css"],
+      "keywords": [
+        "css"
+      ],
       "description": "Search Tailwind CSS default color palette",
       "mode": "view"
     },
@@ -79,14 +92,37 @@
       "name": "search-components",
       "title": "Search Components",
       "subtitle": "Tailwind UI",
-      "keywords": ["css"],
+      "keywords": [
+        "css"
+      ],
       "description": "Search Tailwind UI components",
       "mode": "view"
     }
   ],
-  "categories": ["Documentation", "Developer Tools"],
+  "tools": [
+    {
+      "name": "style-element",
+      "title": "Style element",
+      "description": "Styles a component generated off a prompt and uses the extension to style the said component with Tailwind styles"
+    },
+    {
+      "name": "create-palette",
+      "title": "Create Palette",
+      "description": "Creates a color palette that follows Tailwind standards using the HEX the user passes as input as the base color (500)"
+    }
+  ,
+    {
+      "name": "generate-figma-template",
+      "title": "Generate Figma Template",
+      "description": "Collates the color palette output compiled by @create-palette onto a pre-made SVG template ready to paste into Figma"
+    }
+      ],
+  "categories": [
+    "Documentation",
+    "Developer Tools"
+  ],
   "dependencies": {
-    "@raycast/api": "^1.57.2",
+    "@raycast/api": "^1.93.0",
     "color-convert": "^2.0.1",
     "css": "^3.0.0",
     "lodash": "^4.17.21",
